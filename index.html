@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>positions</title>
+    <style>
+        /* .parent{
+            background-color: green;
+            height: 900px;
+        }
+        .sticky{
+            color: red;
+            border: 2px solid black;
+            padding: 5px;
+            position: sticky;
+            top: 20px;
+            
+        }
+        .child1{
+            background-color: orange;
+            position: relative;
+            
+        }
+        .child2{
+            background-color: yellow;
+            position: relative;
+           
+        }
+        .child3{
+            background-color: blue;
+            position: relative;
+            
+            
+        }*/
+    </style> 
+</head>
+<body>
+    <!-- <div class="parent">
+        <div class="child1">I am child1</div>
+        <div class="sticky"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium fugiat, voluptas vero ex nulla incidunt placeat voluptatibus cupiditate, dolore rem perferendis corrupti. Doloribus qui illo aperiam laudantium accusamus dolorum voluptates?</div>
+        <div class="child2">I am child2</div>
+        <div class="child3">I am child3</div>
+    </div> -->
+
+
+    <div class="main-border">
+        <img  id="img-main" src="./Rohith.jpg" alt="Not Visible">
+        <h2 id="Name">Rohith Kurakula</h2>
+        <p id="white-back"></p>
+    </div>
+    <div class="add-bar">
+        <address>
+            <p>N Damen Avenue, Chicago 999999 | 999-999-9999 | hello@kickresume.com | www.kickresume.com</p>
+        </address>
+    </div>
+    <hr>
+    <div id="center-line">
+    </div>
+    <div class="row">
+        <div class="column">
+            <div>
+                <section>
+                    <i class="fa fa-user fa-2x"aria-hidden="true"></i>
+                <p class="font-prof">Profile</p>  
+                <p class="prof-data" >Innovative optimized job seeker. Excited to be at the deployment phase of my new carrer as a web developer I  am ambitious, adventurous, assiduous, animated and lliteration advocate.</p>
+                </section>
+                <section>
+                    <i class="fa fa-flask fa-2x"></i>
+                    <p class="font-prof">Skills</p>
+                    <table class="center-table">
+                        <tr>
+                            <th colspan="2"  class="table-head">Technical skills</th>
+                        </tr>
+                        <tr>
+                            <td class="left-table-data">Java Script</td>
+                            <td class="righ-table-data"><input type="range" min="1" max="100" value="50" class="slider"  ></td>
+                        </tr>
+                        <tr>
+                            <td class="left-table-data">HTML</td>
+                            <td class="righ-table-data"><input type="range" min="1" max="100" value="50" class="slider"  ></td>
+                        </tr>
+                        <tr>
+                            <td class="left-table-data">CSS</td>
+                            <td class="righ-table-data"><input type="range" min="1" max="100" value="50" class="slider" ></td>
+                        </tr>
+                        <tr>
+                            <td class="left-table-data">React</td>
+                            <td class="righ-table-data"><input type="range" min="1" max="100" value="50" class="slider"  ></td>
+                        </tr>
+                        <tr>
+                            <td class="left-table-data">Redux</td>
+                            <td class="righ-table-data"><input type="range" min="1" max="100" value="50" class="slider"  ></td>
+                        </tr>
+                        <tr>
+                            <td class="left-table-data">Mango</td>
+                            <td class="righ-table-data"><input type="range" min="1" max="100" value="50" class="slider"  ></td>
+                        </tr>
+                        <tr>
+                            <td class="left-table-data">Deployment</td>
+                            <td class="righ-table-data"><input type="range" min="1" max="100" value="50" class="slider"  ></td>
+                        </tr>
+                    </table>
+                    <table class="center-table">
+                        <tr>
+                            <th colspan="2"  class="table-head">Additional skills</th>
+                        </tr>
+                        <tr>
+                            <td class="left-table-data">Project Management</td>
+                            <td class="righ-table-data"><input type="range" min="1" max="100" value="50" class="slider" ></td>
+                        </tr>
+                        <tr>
+                            <td class="left-table-data">Recruitment</td>
+                            <td class="righ-table-data"><input type="range" min="1" max="100" value="50" class="slider"  ></td>
+                        </tr>
+                        <tr>
+                            <td class="left-table-data">Business Development</td>
+                            <td class="righ-table-data"><input type="range" min="1" max="100" value="50" class="slider" ></td>
+                        </tr>
+                        <tr>
+                            <td class="left-table-data">Editing</td>
+                            <td class="righ-table-data"><input type="range" min="1" max="100" value="50" class="slider"  ></td>
+                        </tr>
+                        <tr>
+                            <td class="left-table-data">Fun Praising</td>
+                            <td class="righ-table-data"><input type="range" min="1" max="100" value="50" class="slider" ></td>
+                        </tr>
+                    </table>
+                </section>
+        
+                <section>
+                    <i class="fa fa-briefcase fa-2x"></i>
+                    <p class="font-prof" >Work experience</p>
+                    <br>
+                    <br>
+                    <table class="center-table">
+                        <tr>
+                            <td class="left-table-data" ><b>Event Manger</b></td>
+                            <td class="righ-table-data" style="text-align: center" >03/2014-02/2017</td>
+                        </tr>  
+                    </table>
+                    <p style="margin-left: 20px; font-size: 20px;">C3 presents, Washington DC</p>
+                    <ul style="margin-left: 50px; margin-top: 10px;margin-right: 40px; font-size: 20px;text-align: justify;">
+                        <li>Lead and Executive of all phases of event planning and  of production spanning comitte Recruitment, training, vendor relationships and onsite faciliation.</li>
+                        <li>Brought new Business to the organization through relentless networking and stewardship which held the company win the bid for the state department summit on the middle East and company's largest civic event to date the united state of women</li>
+                        <li>Exercise fiscal content over budget creation, tracking and reporting collabrate with the employees at all organization levels to adavance cohesive operations</li>
+                    </ul>
+                    
+                </section>
+                
+            </div>
+
+        </div>
+        <div class="column">
+            <section>
+                <i class="fa fa-briefcase fa-2x"></i>
+                <p class="font-prof" >Work experience</p>
+                <br>
+                <br>
+                <table class="center-table">
+                    <tr>
+                        <td class="left-table-data" ><b>Community Relations <br> <span style="margin-left: 20px;"></span> Manger</b></td>
+                        <td class="righ-table-data" style="text-align: center;" >03/2014-02/2017</td>
+                    </tr>  
+                </table>
+                <p style="margin-left: 20px; font-size: 20px;">Grey and Lesbian Elder housing,Los Angeles</p>
+                <ul style="margin-left: 50px; margin-top: 10px;margin-right: 40px; font-size: 20px;text-align: justify;">
+                    <li>Arranging Presentation and Pitch deck</li>
+                    <li> Designing a PR plan and establishing important focus points</li>
+                    <li>Designing, Creating and Managing Content across Multiple communication platforms</li>
+                    <li>Building relationships with key media players</li>
+                </ul>
+                
+            </section>
+            <section>
+                <i class="fa fa-graduation-cap fa-2x"></i>
+                <p class="font-prof" >Education</p>
+                <br>
+                <br>
+                <table class="center-table">
+                    <tr>
+                        <td class="left-table-data" ><b>Engineering Immersion<br> <span style="margin-left: 20px;"></span>Program</b></td>
+                        <td class="righ-table-data" style="text-align: center;" >11/2018-06/2018</td>
+                    </tr>  
+                </table>
+                <p style="margin-left: 20px; font-size: 20px; text-align: left;">Thinkful Chicago, IL</p>
+                <p style="margin-left: 20px; font-size: 20px;padding: 5px;margin-top: 8px; margin-right: 40px;">Project-Focused intense program with emphasis on Mango, Express, React and Javascript(MERN) technical stack</p>
+                <ul style="margin-left: 50px; margin-top: 10px;margin-right: 40px; font-size: 20px;text-align: justify;">
+                    <li>Developed a full stack Web application "RENEW-U",Using React that allows users to explore various aspects of meditation. User's progress is stored on backend created using Node and Mango DB</li>
+                    <li> Designing a PR plan and establishing important focus points</li>
+                   
+                    <li>Brought new Business to the organization through relentless networking and stewardship which held the company win the bid for the state department summit on the middle East and company's largest civic event to date the united state of women</li>
+                    <li> Developed a language learning app "Foodie Phonetics" using spaced repetition and a linked list data structure. React was used to create the front end components while node and mango db were used to create backend that stores user data</li>
+                    <li>Developed a conierge app,"Pley", for individual looking for curated suggestions when visiting a new place. React was used to develop the front end which includes real time chat, drap and drop and variety of advamced features. The backend built using Node, Express, and Mango, takes advantage of well developed RESTful API, Geospatial searching, and user authentication with JWT</li>
+                </ul>
+                <br>
+                <table class="center-table">
+                    <tr>
+                        <td class="left-table-data"><b>BA English</b> </td>
+                        <td class="righ-table-data" style="text-align: center;" >09/2001-09/2005</td>
+                    </tr>  
+                </table>
+                <p style="margin-left: 20px; font-size: 20px;">University of California, Los Angeles</p>
+        
+            </section>
+
+        </div>
+    </div>
+    
+</body>
+</html>
